@@ -2,7 +2,22 @@ var comScore = 0;
 var comPersent2 = 0.5;
 var comPersent3 = 0.33;
 
+var computer = {
+  score: 0,
+  percent2:0.5,
+  percent3:0.33,
+};
 
+var user = {
+  score:0,
+  percent2:0.5,
+  percent3:0.33,
+}
+
+var game = {
+  isComputerturn: true,
+  shotLift: 15
+}
 
 
 var userScore = 0;
